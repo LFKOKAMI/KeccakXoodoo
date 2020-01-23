@@ -1,10 +1,12 @@
 #include "Dependency.h"
 #include <iostream>
+#include <ctime>
 using namespace std;
 
 int main() {
 	Dependency de;
 	bool leakedValue[512];
+	srand(time(NULL));
 	for (int i = 0; i < 512; i++) {
 		leakedValue[i] = rand() % 2;
 	}
