@@ -1,3 +1,7 @@
+/*
+The code is for clearly expaining the algebraic attacks on round-reduced Keccak. Therefore, it is not optimized.
+*/
+
 #include "Dependency.h"
 #include <iostream>
 #include <ctime>
